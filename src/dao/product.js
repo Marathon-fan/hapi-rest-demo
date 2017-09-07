@@ -10,7 +10,7 @@ productDAO.prototype = (function(){
         
 		 	var values = [
 		 		params.title
-		 	];
+		 	]; 
         
 		 	var sql = "select * from products"+
 		 		" where title = $1::varchar";
